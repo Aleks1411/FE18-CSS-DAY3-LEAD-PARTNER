@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     width: 500px;
     border: 2px solid black;
@@ -17,4 +22,54 @@
 .a1 p {
     padding: 0;
     margin: 0;
+}
+.milk {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.calo {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-left: 20px; */
+    font-size: 25px;
+
+}
+
+.hr5{
+    background-color: grey;
+    height: 2px;
+    margin-inline-start: 20px;
+}
+.calo2 {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-left: 20px; */
+    font-size: 18px;
+}
+
+
+.fp {
+    flex-basis: 70%;
+}
+
+.op {
+    flex-basis: 15%;
+    text-align: end;
+}
+
+.tab {
+    margin-left: 1em;
+}
+.hr9 {
+    background-color: grey;
+    height: 2px;
+    /* margin-inline-start: 20px; */
+}
+.size {
+    font-size: 15px;
+}
+
+.L {
+   display: flex;
+   justify-content: space-around;
 }
