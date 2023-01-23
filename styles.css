@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    width: 500px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.hr1 {
+    height: 10px ;
+    background-color: black;
+}
+.a1{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+
+}
