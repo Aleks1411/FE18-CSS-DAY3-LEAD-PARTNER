@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.handy {
+    background-image: url(https://cdn.pixabay.com/photo/2014/08/05/10/27/iphone-410311_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: center center;
+    padding-left: 250px;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.handy p {
+    display: flex;
+    width: 300px;
+    text-align: center;
+    padding-top: 170px;
+    color: #3310af;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.b {
+    width: 150px;
+    height: 40px;
+    margin: 90px;
+    color: #2c1111;
+    font-weight: bold;
+
+
+}

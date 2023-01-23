@@ -1,32 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     width: 500px;
     border: 2px solid black;
     margin: 5px;
     padding: 5px;
 }
+
 .hr1 {
-    height: 10px ;
+    height: 10px;
     background-color: black;
 }
-.a1{
- flex-direction: column;
- display: flex;
- align-items: flex-end;
- height: 30px;
+
+.a1 {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    height: 30px;
 }
+
 .a1 p {
     padding: 0;
     margin: 0;
 }
+
 .milk {
     display: flex;
     /* justify-content: space-between; */
 }
+
 .calo {
     display: flex;
     /* justify-content: space-between; */
@@ -35,11 +40,12 @@
 
 }
 
-.hr5{
+.hr5 {
     background-color: grey;
     height: 2px;
     margin-inline-start: 20px;
 }
+
 .calo2 {
     display: flex;
     /* justify-content: space-between; */
@@ -60,16 +66,18 @@
 .tab {
     margin-left: 1em;
 }
+
 .hr9 {
     background-color: grey;
     height: 2px;
     /* margin-inline-start: 20px; */
 }
+
 .size {
     font-size: 15px;
 }
 
 .L {
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
